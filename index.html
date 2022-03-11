@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Insta-Sohor</title>
         <link rel="stylesheet" href="./css/style.css" />
+        <!-- bootstrap link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <!-- Latest compiled and minified CSS -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -77,9 +79,51 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="container my-5 accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item bg-primary text-white">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button bg-black text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      How Does JS Works ??
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">JavaScript is a client-side scripting language that runs inside an Internet browser. browser is also known as a Web client because it connects to a Web server to download pages. Inside a normal Web page with some JavaScript code, When the browser loads the page, the browser has a built-in interpreter that reads the JavaScript code it finds in the page and runs it.</div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-primary text-white">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed bg-black text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      What Does JS Event Loop Do ??
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Text</div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-primary text-white">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button bg-black text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Different between Local Storage and Session Storage.
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><h5>Local Storage:</h5>
+                    <p>1. It's not session based, need to be deleted via JS or manually clien side reading only.</p>
+                    <p>2. It can save more than session storage up to 10MB.</p>
+                    <h5>Session Storage:</h5>
+                    <p>1.  it's session based and will be deleted after closing your browser.</p>
+                    <p>2. It also can save less than LocalStorage, like up to 5MB.</p>
+                </div>
+                  </div>
+                </div>
+              </div>
+
+        </footer>
 
         <!-- add javascript  file  -->
         <script src="./js/app.js"></script>
+        <!-- bootstrap js file -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
